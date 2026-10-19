@@ -2,7 +2,7 @@
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
   name: bakehosue_analytics
-  uuid: 48af9ba3-3bd2-4d53-b3a0-6da125f067ee
+  uuid: 48af9ba3-3bd2-4d53-b3a0-6da125f067ef
 
 include:
   - resources/*.yml

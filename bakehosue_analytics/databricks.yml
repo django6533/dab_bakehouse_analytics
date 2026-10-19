@@ -38,6 +38,8 @@ targets:
       host: https://dbc-825e81fd-7b96.cloud.databricks.com
       # We explicitly deploy to /Workspace/Users/django6533@hotmail.com to make sure we only have a single copy.
       root_path: /Workspace/Users/django6533@hotmail.com/.bundle/${bundle.name}/${bundle.target}
+    run_as:
+      service_principal_name: 'efae9c3c-991f-4883-b30b-993db61182ae'
     variables:
       catalog: bakehouse_analytics_prod
       schema: rnd
